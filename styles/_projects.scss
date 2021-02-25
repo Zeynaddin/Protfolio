@@ -1,0 +1,35 @@
+.projects {
+  width: 90%;
+  margin: auto;
+  min-height: 90vh;
+  @include flex(space-between, center, row);
+  flex-wrap: wrap;
+  text-align: center;
+  h2 {
+    margin: 5rem;
+  }
+  img {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 3rem;
+  }
+}
+
+.travelly,
+.elena-joy {
+  flex: 1 1 40rem;
+  img {
+    cursor: pointer;
+  }
+}
+
+.travelly img {
+  width: 580px;
+  height: 470px;
+}
+
+img:hover {
+  transform: scale(1.1);
+
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+}
