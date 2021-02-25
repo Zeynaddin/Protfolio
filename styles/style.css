@@ -503,6 +503,9 @@ footer ul {
     padding-top: 0;
     font-size: 2rem;
   }
+  .intro img {
+    border-radius: 1rem;
+  }
   ul {
     width: 10%;
     margin-bottom: 3rem;
@@ -563,6 +566,9 @@ footer ul {
   .projects-body {
     margin-left: 2rem;
   }
+  .elena-joy {
+    margin-bottom: 2rem;
+  }
   .elena-joy img,
   .travelly img {
     width: 100%;
@@ -577,9 +583,17 @@ footer ul {
   form {
     padding: 0rem;
     width: 100%;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
   }
   input {
     width: 30rem;
+  }
+  footer {
+    margin-left: 0;
+  }
+  h4 {
+    font-size: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
