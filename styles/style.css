@@ -590,7 +590,15 @@ footer ul {
     width: 30rem;
   }
   footer {
+    height: 2vh;
     margin-left: 0;
+  }
+  footer li {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+  }
+  footer a {
+    padding-bottom: 0rem;
   }
   h4 {
     font-size: 100%;
