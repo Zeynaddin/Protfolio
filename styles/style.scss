@@ -34,6 +34,7 @@ $grey: #2c2c2c;
 @media screen and (max-width: 809px) {
   html {
     font-size: 75%;
+    text-align: left;
   }
 
   nav {
@@ -95,10 +96,10 @@ $grey: #2c2c2c;
   }
 
   .intro-social {
-    margin: auto;
     width: 60%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .intro-text {
     @include flex(center, center, column);
@@ -115,9 +116,6 @@ $grey: #2c2c2c;
     border-radius: 1rem;
   }
 
-  .projects-body {
-    margin-left: 2rem;
-  }
   .elena-joy {
     margin-bottom: 2rem;
   }
@@ -135,18 +133,20 @@ $grey: #2c2c2c;
   }
   form {
     padding: 0rem;
-    width: 100%;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-  }
-  input {
-    width: 30rem;
+    width: 98%;
+
+    input {
+      width: 30rem;
+    }
+    textarea {
+      width: 220%;
+    }
   }
   footer {
     height: 2vh;
     margin-left: 0;
     li {
-      padding-top: 2rem;
+      padding-top: 3rem;
       padding-bottom: 0rem;
     }
     a {
