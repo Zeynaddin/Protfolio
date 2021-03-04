@@ -15,7 +15,8 @@
 }
 
 .travelly,
-.elena-joy {
+.elena-joy,
+.todo-list {
   flex: 1 1 40rem;
   img {
     cursor: pointer;
@@ -26,10 +27,15 @@
   width: 580px;
   height: 470px;
 }
+.todo-list img {
+  width: 580px;
+  height: 470px;
+  margin-bottom: 3rem;
+}
 
 img:hover {
   transform: scale(1.1);
-
+  transition: all 0.5s ease;
   opacity: 1;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
 }

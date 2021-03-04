@@ -56,15 +56,19 @@ nav {
 
 .intro-social {
   margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+
   a {
-    margin-right: 5rem;
   }
 }
 
 .active {
   background: gray;
   color: white;
-  padding: 1rem 3rem;
+  font-size: smaller;
+  padding: 0 1rem;
   border-radius: 2rem;
 }
 
