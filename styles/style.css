@@ -150,11 +150,6 @@ nav ul {
   padding: 2rem 0rem;
 }
 
-.intro p {
-  padding: 2rem;
-  color: #2c2c2c;
-}
-
 .splash {
   position: absolute;
   top: 0%;
@@ -162,6 +157,14 @@ nav ul {
   height: 100%;
   opacity: 0.5;
   z-index: -1;
+}
+
+.cv {
+  background: #537217;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  color: #a3e4e4;
+  margin-top: 1rem;
 }
 
 .intro-social {

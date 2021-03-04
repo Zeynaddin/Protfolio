@@ -39,10 +39,6 @@ nav {
     font-size: 6rem;
     padding: 2rem 0rem;
   }
-  p {
-    padding: 2rem;
-    color: $grey;
-  }
 }
 
 .splash {
@@ -52,6 +48,14 @@ nav {
   height: 100%;
   opacity: 0.5;
   z-index: -1;
+}
+
+.cv {
+  background: rgb(83, 114, 23);
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  color: rgb(163, 228, 228);
+  margin-top: 1rem;
 }
 
 .intro-social {
